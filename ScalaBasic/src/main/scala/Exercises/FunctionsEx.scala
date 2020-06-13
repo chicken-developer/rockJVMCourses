@@ -5,6 +5,7 @@ object FunctionsEx extends App {
   //MyAnswers
   def myGreeting(name: String, age: Int): String ={
     "Hi, my name is " + name + " and I am" + age + " years old."
+    s"Hi 222, my name is $name and I am $age year old"
   }
   println(greetingForKids("Quynh",20))
 
